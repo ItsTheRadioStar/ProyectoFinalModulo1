@@ -30,31 +30,23 @@
     }
 }
 
-@media screen and (max-width: 800px){
-    #contenedor4{
-        font-size: 85%;
-    }
-    #contenedor4 button{
-        font-size: 98%;
 
-    }
-    #contenedor5{
-        font-size: 85%;
-    }
-    #contenedor5 button{
-        font-size: 98%;
-
-    }
-    #contenedor6{
-        font-size: 85%;
-    }
-    #contenedor6 button{
-        font-size: 98%;
-
-    }
-}
 
 @media screen and (max-width: 964px){
+    #contenedor1 button{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    #contenedor2 button{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    #contenedor3 button{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
 
     #contenedor4 button{
         padding-left: 1.5rem;
@@ -112,8 +104,8 @@ header span{
 }
 
 section img{
-        height: auto;
-        max-width: 100%;
+    height: auto;
+    max-width: 100%;
     }
 
 div img{
@@ -129,6 +121,8 @@ header div{
     justify-content: center;
     font-family: "Playfair";
 }
+
+/*Clases usadas para el Hero antes del carrusel. Guardado como comentario para la posteridad.
 
 .hero{
     background-image: url("/img/principal.jpg");
@@ -163,6 +157,23 @@ header div{
     color: white;
 }
 
+*/
+
+
+
+/*Clases usadas antes de migrar a Bootstrap. Guardado para posteridad.
+
+.contenedorFlexColumnna{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contenedorFlexColumnnaCat{
+    display: flex;
+    flex-direction: column;
+}
+
 .contenedorFlex{
     display: flex;
     flex-direction: row;
@@ -182,16 +193,7 @@ header div{
     gap: 20px;
 }
 
-.contenedorFlexColumnna{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.contenedorFlexColumnnaCat{
-    display: flex;
-    flex-direction: column;
-}
+*/
 
 .contenedor{
     display: flex;
@@ -201,7 +203,7 @@ header div{
     color: white;
     border-radius: 0.5rem;
     padding: 0.7rem;
-
+    padding-top: 2rem;
 }
 
 .contenedor p{
@@ -232,7 +234,7 @@ header div{
     color: white;
     border-radius: 0.5rem;
     padding: 0.7rem;
-    
+    padding-top: 2rem;
 }
 
 .contenedor2 p{
@@ -264,13 +266,13 @@ header div{
 
 }
 
-.menuFooter2{
-    list-style: none;
-    text-indent: none;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+@media screen and (max-width: 574px){
+    #menu1, #menu2, #menu3{
+        margin-top: 1.2rem;
+    }
 }
+
+
 
 .menuFooter{
     list-style: none;
